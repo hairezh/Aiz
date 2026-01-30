@@ -20,20 +20,26 @@ async function loadSkins(){
           </div>
 
           <div class="cardActions">
-            <a class="small" href="${escapeAttr(s.download || "#")}" download>Download</a>
+            <a class="small" href="${escapeAttr(s.download || "#")}" download>
+              Download
+            </a>
           </div>
         </div>
       </div>
     `).join("");
 
   }catch(e){
-    grid.innerHTML = `<div class="mini">Couldn’t load skins.json — ${escapeHtml(e.message)}</div>`;
+    grid.innerHTML = `<div class="mini">Couldn’t load skins.json</div>`;
   }
 }
 
 function escapeHtml(str){
   return String(str).replace(/[&<>"']/g, m => ({
-    "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+    "&":"&amp;",
+    "<":"&lt;",
+    ">":"&gt;",
+    '"':"&quot;",
+    "'":"&#39;"
   }[m]));
 }
 function escapeAttr(str){ return escapeHtml(str); }
