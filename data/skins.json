@@ -1,20 +1,16 @@
 [
   {
-    "name": "A-Editor Minimal",
-    "mode": "STD",
+    "name": "!katsss",
+    "mode": "Mania",
     "updated": "2026-01-30",
-    "tags": ["minimal", "dark"],
     "thumb": "img/aeditor-min.png",
     "download": "downloads/aeditor-min.zip",
-    "notes": "Clean, readable, low distraction."
   },
   {
     "name": "Mania Neon 7K",
     "mode": "Mania",
     "updated": "2026-01-25",
-    "tags": ["mania", "7k", "neon"],
     "thumb": "img/mania-neon.png",
     "download": "downloads/mania-neon.zip",
-    "notes": "Centered, bright hits, simple keys."
   }
 ]
