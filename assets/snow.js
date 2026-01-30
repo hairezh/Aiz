@@ -1,7 +1,5 @@
 (() => {
   const start = () => {
-    const reduceMotion = window.matchMedia?.("(prefers-reduced-motion: reduce)")?.matches;
-    if (reduceMotion) return;
 
     const canvas = document.createElement("canvas");
     const ctx = canvas.getContext("2d", { alpha: true });
