@@ -1,16 +1,16 @@
 [
   {
     "name": "!katsss",
-    "made": "Mania",
-    "updated": "2026-01-30",
+    "made": "2026-01-30",
+    "mode": "mania",
     "thumb": "img/aeditor-min.png",
-    "download": "downloads/aeditor-min.zip"
+    "download": "downloads/aeditor-min.zip",
   }
   {
-    "name": "Mania Neon 7K",
-    "made": "Mania",
-    "updated": "2026-01-25",
+    "name": "!h",
+    "made": "2026-01-25",
+    "mode": "mania",
     "thumb": "img/mania-neon.png",
-    "download": "downloads/mania-neon.zip"
+    "download": "downloads/mania-neon.zip",
   }
 ]
