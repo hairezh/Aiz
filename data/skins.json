@@ -1,14 +1,7 @@
-[
-  {
-    "name": "!katsss",
-    "made": "2026-01-30",
-    "thumb": "img/aeditor-min.png",
-    "download": "downloads/aeditor-min.zip"
-  },
-  {
-    "name": "!h",
-    "made": "2026-01-25",
-    "thumb": "img/mania-neon.png",
-    "download": "downloads/mania-neon.zip"
-  }
-]
+{
+  "name": "!katsss",
+  "made": "2026-01-30",
+  "mode": "mania",
+  "thumb": "img/aeditor-min.png",
+  "download": "downloads/aeditor-min.zip"
+}
