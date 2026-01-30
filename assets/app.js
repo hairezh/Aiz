@@ -13,8 +13,10 @@ async function loadSkins(){
           <img class="thumb" src="${escapeAttr(s.thumb || "")}" alt="">
           <div class="cardBody">
             <div class="cardTitle">${escapeHtml(s.name || "Untitled")}</div>
-            <div class="meta">
-              <span>Mode: ${escapeHtml(s.mode || "-")}</span>
+           <div class="meta">
+           <span>Mode: ${escapeHtml(s.mode || "-")}</span>
+           <span>Made: ${escapeHtml(s.made || "-")}</span>
+            </div>
               <span>Updated: ${escapeHtml(s.updated || "-")}</span>
             </div>
             <div class="tags">${tags}</div>
