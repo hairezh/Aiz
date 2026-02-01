@@ -29,17 +29,11 @@ async function loadSkins(){
             ${previews.length > 1 ? `
               <div class="previewArrow left" data-dir="-1">◀</div>
               <div class="previewArrow right" data-dir="1">▶</div>
-              <div class="previewDots">${dots}</div>
             ` : ``}
           </div>
 
           <div class="cardBody">
             <div class="cardTitle">${escapeHtml(s.name || "Untitled")}</div>
-
-            <div class="meta">
-              <span>Mode: ${escapeHtml(s.mode || "-")}</span>
-              <span>Made: ${escapeHtml(s.made || "-")}</span>
-            </div>
 
             <div class="cardActions">
               <a class="small" href="${escapeAttr(s.download || "#")}" download>Download</a>
